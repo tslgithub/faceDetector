@@ -191,8 +191,10 @@ def detector(img_raw,device,net,cfg,args,file):
     dets                            = postProcess(args,scale,conf,landms,priors,cfg,img,device,loc)
     fixResult(args,dets,img_raw,file,im_height, im_width)
 
-def run(dataset,data):
+def run(dataset,data,threshold):
     args  = CONFIG()
+    if(threshold>0):
+        args.vis_thres = threshold
 
     net,device,cfg = loadNet(args)
     print("\n\nstart detector")
@@ -212,7 +214,12 @@ def run(dataset,data):
 def main():
     print("sys -> {}".format(sys.argv))
     argv = sys.argv
-    assert len(argv) == 2,"{} must has one paramter, for example `python3 script 1.jpg` ".format(argv)
+    assert len(argv) < 4 ,"{} must has one paramter, for example `python3 script 1.jpg` ".format(argv)
+
+    threshold=-1
+    if(len(argv)==3):
+        threshold = float(argv[2])
+        assert  threshold> 0 and threshold<1
 
     data = None
     dataset = None
@@ -224,7 +231,7 @@ def main():
         print("{} is not file or folder".format(argv[1]))
 
     if((data is not None) or (dataset is not None) ):
-        run(dataset,data)
+        run(dataset,data,threshold)
 
 if __name__ == '__main__':
     main()

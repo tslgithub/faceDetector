@@ -15,7 +15,15 @@
 > python3 script.py  images/
 > python3 script.py  images/1.jpg
 > ```
+>  * use defaults vis_thres is 0.6
 >  * result will be saved in folder named result
 >
 
-
+## run3
+> ```bash
+> python3 script.py  images/ 0.7
+> python3 script.py  images/1.jpg 0.7
+> ```
+> * 0.7 means vis_thres=0.7, or defaults is 0.6
+> * result will be saved in folder named result
+>
