@@ -17,11 +17,5 @@
 > ```
 >  * result will be saved in folder named result
 >
-## run2
->
-> * you can also run
-    >
-    >   ```bash
->   sh run.sh
->   ```
+
 
