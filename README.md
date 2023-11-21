@@ -1,5 +1,10 @@
 # RetinaFace in PyTorch
 
+## support
+> run on ubuntu20, ubuntu18.  
+> run on python3
+>
+
 ## Installation
 > ```bash
 > pip3 install -r requirements.txt
@@ -20,6 +25,8 @@
 >
 
 ## run2
+> an evaluation metric,  which uses confidence to checkout if the face is trustworthy。  
+> if the confidence of detected face is more than 70%,  the detect result is trustworthy, or is not trustworthy
 > ```bash
 > python3 script.py  images/ 0.7
 > python3 script.py  images/1.jpg 0.7
