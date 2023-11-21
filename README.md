@@ -19,7 +19,7 @@
 >  * result will be saved in folder named result
 >
 
-## run3
+## run2
 > ```bash
 > python3 script.py  images/ 0.7
 > python3 script.py  images/1.jpg 0.7
