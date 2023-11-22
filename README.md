@@ -1,12 +1,12 @@
 # RetinaFace in PyTorch
 
 ## support
-> run on ubuntu20, ubuntu18.  
-> run on python3
->
+> run on ubuntu20, ubuntu18, python3
+
 
 ## Installation
 > ```bash
+> sudo apt-get install python3-pip3
 > pip3 install -r requirements.txt
 > ```
 
