@@ -5,7 +5,7 @@ def detector(img_raw,device,net,cfg,args,file):
     img,scale,im_height, im_width   = preProcess(img_raw,device)
     conf,landms,priors,loc          = inference( net,img,im_height, im_width,cfg)
     dets                            = postProcess(args,scale,conf,landms,priors,cfg,img,device,loc)
-    boxes = fixResult(args,dets,img_raw,file,im_height, im_width)
+    boxes                           = fixResult(args,dets,img_raw,file,im_height, im_width)
     return boxes
 
 def runTest(dataset,data,threshold):
