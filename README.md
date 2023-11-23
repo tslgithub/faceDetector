@@ -47,4 +47,12 @@
 > 3. run test: 
 > ```python
 > python3 script.py images
-```
+> ```
+>
+
+## answers
+> 1. add metric evaluation
+> 2. add unit test
+> 3. simply codo
+> 4. the train.py is not belong to my code, because this code is from  `https://github.com/TreB1eN/InsightFace_Pytorch`
+
