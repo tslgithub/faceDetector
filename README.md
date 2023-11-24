@@ -46,7 +46,12 @@
 > 2. unzip the test dataset, and take all of the test-dataset into images
 > 3. run test: 
 > ```python
-> python3 script.py images
+> python3 script.py WIDER_test/images/0--Parade
+> python3 script.py WIDER_test/images/1--Handshaking
+> ...
+> ...
+> ...
+> python3 script.py WIDER_test/images/61--Street_Battle
 > ```
 >
 
@@ -54,5 +59,5 @@
 > 1. add metric evaluation
 > 2. add unit test
 > 3. simply codo
-> 4. the train.py is not belong to my code, because this code is from  `https://github.com/TreB1eN/InsightFace_Pytorch`
+> 4. the train.py is not belong to my code, because this code is from  `https://github.com/TreB1eN/InsightFace_Pytorch`, and I have not do any trainin
 
