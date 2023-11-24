@@ -43,7 +43,7 @@
 ## unit test
 > 1. download test dataset in 
 > `https://drive.google.com/file/d/1HIfDbVEWKmsYKJZm4lchTBDLW5N7dY5T/view`
-> 2. unzip the test dataset, and take all of the test-dataset into images
+> 2. unzip the test dataset
 > 3. run test: 
 > ```python
 > python3 script.py WIDER_test/images/0--Parade
