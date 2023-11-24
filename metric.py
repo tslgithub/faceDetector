@@ -6,7 +6,7 @@ from script import runTest,detector
 def calculate_f1_precision_recall(true_positives, false_positives, false_negatives):
     precision   = true_positives / (true_positives + false_positives + 0.0001)
     recall      = true_positives / (true_positives + false_negatives + 0.0001)
-    f1_score    = 2 * (precision * recall) / (precision + recall + 0.0001)
+    f1_score    = 2.0* (precision * recall) / (precision + recall + 0.0001)
     return f1_score, precision, recall
 
 
