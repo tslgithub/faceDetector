@@ -13,7 +13,7 @@
 ## download weight
 > https://drive.usercontent.google.com/download?id=14KX6VqF69MdSPk3Tr9PlDYbq7ArpdNUW&export=download&authuser=0&confirm=t&uuid=1c047ae2-05e4-4f33-b66e-e0d73a711f5b&at=APZUnTWD5sWebJKA6TbMpsDvAHFJ:1700533565125
 >
-> save the weight in folder named `weigths`
+> * save the weight in folder named `weigths`
 
 ## run script
 > ```bash
@@ -61,4 +61,3 @@
 > 2. add unit test
 > 3. simply codo
 > 4. the train.py is not belong to my code, because this code is from  `https://github.com/TreB1eN/InsightFace_Pytorch`, and I have not do any training.
-
